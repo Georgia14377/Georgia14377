@@ -1,3 +1,15 @@
+/*
+
+Program: Assignment3.java          Date: March 16 /22
+
+
+Author: Georgia Mollet
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
+
 package Assignments;
 
 public class Assignment3 {
@@ -12,3 +24,17 @@ public class Assignment3 {
 	}
 
 }
+
+/* Screen Dump
+
+
+B   I    N    G    O
+14  29   32   58   74
+3   22   43   47   61
+8   18  FREE  53   65
+15  16   45   59   71
+6   26   28   60   63
+
+
+
+*/

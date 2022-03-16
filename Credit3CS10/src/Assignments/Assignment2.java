@@ -1,3 +1,17 @@
+/*
+
+Program: Assignment3.java          Date: March 16 /22
+
+
+Author: Georgia Mollet
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
+
+
+
 package Assignments;
 
 public class Assignment2 {
@@ -12,3 +26,17 @@ public class Assignment2 {
 		
 	}	
 }
+
+/* Screen Dump
+
+
+
+ -----      |       |
+|     |     |\     /| 
+|           | \___/ | 
+|  ----     |       | 
+|_____|     |       |
+
+
+
+*/
