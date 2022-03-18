@@ -32,7 +32,7 @@ public class Assignment1
 
 
 From: Mr. Abdalla
-Adress: Acer Computer, Crescent Heights
+Address: Acer Computer, Crescent Heights
 Date:March 8th,2022
 To:Georgia Mollet
 Message: Help! I'm trapped inside a computer!
