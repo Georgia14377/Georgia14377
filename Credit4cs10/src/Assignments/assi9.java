@@ -28,7 +28,7 @@ public class assi9 {
 		int n12 = nu1 /nu2;
 		System.out.println(nu1 +" / " + nu2 + " = "  + n12); 
 		int n13 = nu1 % nu2;
-		System.out.println(nu1 + " % " + nu2 + "= " + n13);
+		System.out.println(nu1 + " % " + nu2 + " = " + n13);
 		int n21 = nu2 /nu1;
 		System.out.println(nu2 +" / " + nu1 + " = " + n21); 
 		int n22 = nu2 % nu1;
@@ -37,3 +37,15 @@ public class assi9 {
 	}
 
 }
+/* screen dump
+enter a number:
+15
+enter a second number:
+3
+15 / 3 = 5
+15 % 3= 0
+3 / 15 = 0
+3 % 15 = 3
+
+
+*/
