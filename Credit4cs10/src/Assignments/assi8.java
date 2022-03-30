@@ -30,7 +30,7 @@ public class assi8 {
 
 }
 /* screen dump
-Enter a two digit nuber:
+Enter a two digit number:
 98
 Tens-place:9
 Ones-place:8
