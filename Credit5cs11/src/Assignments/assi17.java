@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /*
 
-Program: assi15.java          Date: april 4th
+Program: assi15.java          Date: april 6th
 
 Author: Georgia Mollet
 School: CHHS
@@ -18,7 +18,7 @@ public class assi17 {
 Scanner userinput = new Scanner(System.in);
 		
 		System.out.println("Enter your GPA or '-1' to quit: "); 
-		Double gpa = userinput.nextDouble();
+		double gpa = userinput.nextDouble();
 		
 		
 		String haha = "";
@@ -26,9 +26,7 @@ Scanner userinput = new Scanner(System.in);
 		
 		while(gpa != -1)
 		{
-			System.out.println("Enter your GPA or '-1' to quit: ");
-			gpa = userinput.nextDouble();
-			
+		
 			
 			if (gpa > 3.8)
 			{
@@ -37,19 +35,41 @@ Scanner userinput = new Scanner(System.in);
 				System.out.println("Enter another GPA or '-1' to quit: "); 
 				gpa = userinput.nextDouble();
 			}
-			else if ((gpa >364) && (gpa <3.9))
+			else if ((gpa > 3.65) && (gpa < 3.8))
 			{
 				haha = "magna cum laude";
 				System.out.println(haha); 
 				System.out.println("Enter another GPA or '-1' to quit: "); 
 				gpa = userinput.nextDouble();
 			}
+			else if ((gpa > 3.5) && (gpa < 3.65))
+			{
+				haha = "cum laude";
+				System.out.println(haha); 
+				System.out.println("Enter another GPA or '-1' to quit: "); 
+				gpa = userinput.nextDouble();
+			}
 		}
 		
-		
+		System.out.println("Thank you for using our program, have a great day! ");
+
 	
 	
 		
 	}
 
 }
+/* Screen dump
+ * Enter your GPA or '-1' to quit: 
+3.82
+summa cum laude
+Enter another GPA or '-1' to quit: 
+3.7
+magna cum laude
+Enter another GPA or '-1' to quit: 
+3.57
+cum laude
+Enter another GPA or '-1' to quit: 
+-1
+Thank you for using our program, have a great day! 
+*/
